@@ -1,0 +1,211 @@
+body {
+	height:100%;
+	margin:0;
+	padding:0;
+	font-family: "Roboto", sans-serif;
+}
+a {
+	text-decoration: none;
+	color:#004488;
+}
+#pageMiddle{
+    min-width: 1100px;
+}
+#pageTop #pageTopLogo{
+	width: 210px;
+        margin: auto;
+	padding-top: 7px;
+	}
+#pageTop #pageTopLogo img{
+    display: block;
+    margin: 5px;
+    float: left;
+}
+#pageTop #pageTopLogo h1{
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 150%;
+    font-weight: normal;
+    margin-top: 5px;
+}
+#pageTop #pageTopLogo h1 a{
+	color:#319b78;
+	text-decoration:none;
+}
+#mainlink{
+    width: 100%;
+    text-align: center;
+}
+#content{
+        min-width: 800px;
+        margin: 10px 0 20px 261px;
+        float: left;
+    }
+#error{ 
+    background-color: #e72424;
+    padding: 3px 5px; 
+    margin-top: 15px;
+    }
+#error p{
+        text-align: center;
+        color: #fff;
+    }
+#topLinks{
+       border-top: solid 1px #555555; 
+    }
+#topLinks span{
+        color: #009933;
+        font-size: 15px;
+    }
+    #form{
+        float: right;
+    }
+#delete, #back {
+    background-color: #555555;
+    border: none;
+    color: #efecec;
+    margin-right: 500px;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+#delete:hover, #back:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#surveys, #contacts{
+        margin:0;       
+        width: 100%;
+    }
+#surveys #title{
+        margin: 0;
+        padding: 0 10px;
+    }
+#surveys #title p {
+    color:#333;
+    font-family: ‘Arial Narrow’, sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    }    
+table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+	font-size: 16px;
+}
+td, th {
+    text-align: left;
+    padding: 2px;
+    color: #333;
+}
+td {
+    padding-bottom: 8px;
+}
+td span{
+    margin-left: 25px;
+    padding: 2px 7px;
+    border: solid 1px #333;
+    color: #333;
+    border-radius: 15px;
+}
+#sidebar{
+    float: left;
+    width: 250px;
+    height: 100%;
+    position: fixed; 
+}
+#sidebar ul {
+    margin: 30px;
+    list-style-type: none;
+    padding: 0;
+    width: 180px;
+}
+
+#sidebar ul li a {
+    display: block;
+    font-size: 15px;
+    color: #000;
+    padding: 8px 35px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+#sidebar ul li a:hover {
+    background-color: #555;
+    color: white;
+}
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+#inserterror{
+    margin: 0;
+    padding: 5px 20px;
+    font-size: 15px;
+}
+#resp {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 3px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #ffffff;
+    border: solid 1px #dddddd;
+    border-radius: 5px;
+}
+#resp p{
+    color: #003366;
+    font-size: 15px;
+    float: left;
+    margin: 8px;
+}
+#resp li {
+    float: left;
+	margin: 2px;
+        padding: 7px 10px;
+	background-color: #003366;
+	border-radius: 3px;
+}
+#ending{
+    float: right;
+    margin-top: 30px;
+}
+#ending a {
+    margin-right: 15px;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px; 
+}
+#insert{
+    margin-right: 15px;
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 5px; 
+}
+#ending #draft, #ending #compile {
+    border: solid 1px #003366;
+    background-color: #ffffff;
+    color: #003366;
+}
+#ending #draft:hover, #ending #compile:hover{
+    background-color: #003366;
+    color: #ffffff;
+}
+#ending #deploy, #ending #insert {
+    border: solid 1px #006600;
+    background-color: #ffffff;
+    color: #006600;
+}
+#ending #deploy:hover, #ending #insert:hover{
+    background-color: #006600;
+    color: #ffffff;
+}
+#ending #schedule {
+    border: solid 1px #ff7022;
+    background-color: #ffffff;
+    color: #ff7022;
+}
+#ending #schedule:hover{
+    background-color: #ff7022;
+    color: #ffffff;
+}

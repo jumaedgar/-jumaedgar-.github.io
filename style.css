@@ -1,0 +1,229 @@
+body {
+	height:100%;
+	margin:0;
+	padding:0;
+	font-family: "Roboto", sans-serif;
+}
+a {
+	text-decoration: none;
+	color:#004488;
+}
+#container{
+	min-height:100%;
+    position:relative;
+}
+#pageTop2{
+    
+}
+#pageTop > #pageTopWrap{
+	margin: 0px auto;
+}
+#pageTop2 > #pageTopWrap{
+	margin: 0px;
+        padding: 10px;
+        height: 40px;
+}
+#pageMiddle{
+   padding:0px 10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#pageMiddle > #pageMiddleWrap{
+	margin: 0px auto;
+	max-width:390px;
+}
+#pageMiddle2 > #pageMiddleWrap{
+	margin: 0px;
+        padding: 10px;
+}
+#pageMiddle > #pageMiddleWrap > #introMiddleContent > #links{
+	padding:10px;
+	margin-bottom: 110px;
+}
+#pageMiddle > #pageMiddleWrap > #introMiddleContent p{
+	text-align: center;
+	color:#333333;
+    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif;
+    font-size: 200%;
+	font-weight: normal;
+}
+#pageTop > #pageTopWrap > #introTopLogo{
+	padding-top: 50px;
+	}
+#pageTop > #pageTopWrap > #introTopLogo img {
+    display: block;
+    margin: 0 auto;
+}
+#pageTop > #pageTopWrap > #introTopLogo h1{
+	text-align: center;
+	color:#319b78;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 200%;
+	font-weight: normal;
+	margin-top: 0px;
+}
+#proceed, #learn{	
+
+	border-radius: 3%;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+	display: inline-block;
+    margin: 8px;
+}
+#learn{
+	background-color: white;
+    border: 1px solid #cccccc;
+	color:#262626;
+}
+#proceed {
+	background-color: #4CAF50;
+    border: none;
+	color: white;
+}
+#proceed:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#learn:hover {
+	background-color: #cccccc;
+}
+#pageBottom{
+   bottom:0;
+   height:60px; 
+}
+#pageBottom > #pageBottomWrap p {
+	text-align: center;
+	color:#333333;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-weight: normal;
+}
+
+#pageTop > #pageTopWrap > #pageTopLogo{
+	margin: 0 auto;
+	width: 210px;
+	padding-top: 10px;
+	}
+#pageTop2 > #pageTopWrap > #pageTopLogo{
+	width: 150px;
+        float: left;
+	}
+#pageTop > #pageTopWrap > #pageTopLogo img, #pageTop2 > #pageTopWrap > #pageTopLogo img {
+    display: block;
+    margin: 5px;
+    float: left;
+}
+#pageTop > #pageTopWrap > #pageTopLogo h1, #pageTop2 > #pageTopWrap > #pageTopLogo h1{
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 150%;
+    font-weight: normal;
+    margin-top: 5px;
+}
+#pageTop > #pageTopWrap > #pageTopLogo h1 a, #pageTop2 > #pageTopWrap > #pageTopLogo h1 a{
+	color:#319b78;
+	text-decoration:none;
+}
+#pageMiddle > #pageMiddleWrap > #pageMiddleTitle p{
+	text-align: center;
+	color:#999999;
+    font-family: ‘Arial Narrow’, sans-serif;
+    font-size: 28px;
+	font-weight: normal;
+}
+#pageMiddle > #pageMiddleWrap > #content > #pageMiddleTitle p, #pageMiddle2 > #pageMiddleWrap > #content > #pageMiddleTitle p > #pageMiddleTitle p {
+	text-align: center;
+	color:#999999;
+    font-family: ‘Arial Narrow’, sans-serif;
+    font-size: 28px;
+	font-weight: normal;
+}
+.login-page, .spex-page {
+  width: 360px;
+  padding: 0px;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input, .form textarea {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form textarea {
+ margin-top: 10px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #43A047;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 14px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+        
+#pageMiddle2 > #pageMiddleWrap > #content {
+            float: left;
+            width: 80%;
+        }
+        #pageMiddleTitle2{
+          padding: 5px 20px;   
+          width: 95%;
+          height: 55px;
+        }
+        #pageMiddleTitle2 > #form{
+            float: left;
+        }
+        #form{
+            height: 53px;
+        }
+        #error, #error2 {
+            float: left;            
+        }
+        #error p{
+            color: #ff0000;
+            font-size: 15px;
+            margin-left: -40px;
+        }
+        #error > #me, #error2 > #me{
+            color: #009933;
+            font-size: 15px;
+        }
+        #contacts, #surveys{
+            width: 95%;
+            float: left;  
+            padding: 15px;
+        }
+        #del{
+            float: left;
+        }
